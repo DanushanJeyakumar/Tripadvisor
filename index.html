@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Google style sheet for font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+  <!--My style sheet-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripadvisor</title>
+  <link rel="stylesheet" href="style.css">
+  <!--font Awesome CDN Link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Font awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="navbar">
+    <div class="navbar__s1">
+      <div class="navbar__s1__logo">
+        <img src="logo.svg" alt="Tripadvisor Logo">
+      </div>
+
+    </div>
+    <div class="navbar__s2">
+      <p>Discover</p>
+      <P>Trips</P>
+      <p>Review</p>
+      <p>More</p>
+    </div>
+
+    <div class="navbar__s3">
+      <p class="navbar__s3__lkr"><i class="fa-solid fa-globe" style="color: #020409;"></i> | LKR</p>
+      <P class="navbar__s3__signin">Sign in</P>
+    </div>
+  </div>
+
+            <!--Navbar Mobile-->
+    <div class="mobile-header">
+        <header class="header">
+            <div class="menu-icon">&#9776;</div>
+            <img src="logo.svg" alt="Tripadvisor Logo" class="logo">
+            <div class="right-icons">
+                <button class="app-button">
+                    <span class="download-icon"><i class="fa-solid fa-arrow-down"></i></span> App
+                </button>
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></div>
+            </div>
+        </header>
+    </div>
+      <div class="where-to">
+    <h1> Where to?</h1>
+  </div>
+
+    <div class="desktop-message">
+   
+    </div>
+  <!--Search bar-->
+  <div class="search-container">
+    <div class="search-tabs">
+      <div class="tab">
+        <p class="tab-active"> <i class="fa-solid fa-house" style="color: #04070b;"> </i> Search All </p>
+        <p> <i class="fa-solid fa-bed" style="color: #1f2021;"></i> Hotel </p>
+        <p> <i class="fa-solid fa-camera" style="color: #04070b;"></i> Things to Do </p>
+        <p><i class="fa-solid fa-utensils" style="color: #070d18;"></i> Restaurants</p>
+        <p> <i class="fa-solid fa-plane-circle-check" style="color: #000000;"></i> Flights</p>
+        <p> <i class="fa-solid fa-house-lock" style="color: #000000;"></i> Vacation Rentals</p>
+      </div>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Places to go, things to do, hotels..." />
+      <button>Search</button>
+    </div>
+  </div>
+  <!--Trip Highlight-->
+  <div class="trip-highlight">
+    <div class="trip-highlight__image-section">
+      <img src="main.jpg" alt="Trip Image" />
+      <div class="image-section__tag">
+        <a>@925laceyc </a>
+      </div>
+    </div>
+    <div class="trip-highlight__text-section">
+      <h1>Book the<br>best part<br>of your trip</h1>
+      <p>Browse unforgettable things to do—right here.</p>
+      <button>Find things to do</button>
+    </div>
+  </div>
+
+  <!--Mobile Card-->
+<body>
+  <div class="mobile-card">
+    <div class="mobile-img-container">
+      <img src="main.jpg" alt="Trip Image" class="main-img" />
+      <div class="tag">@gfish58</div>
+    </div>
+
+    <div class="mobile-text">
+      <h1>Book fun<br>things to do<br>on the go</h1>
+      <p>Browse unforgettable experiences—in the app.</p>
+      <button>Get the app</button>
+    </div>
+  </div>
+  <!--Interests section-->
+  <section class="interests-section">
+    <h2>Find things to do by interest</h2>
+    <p>Whatever you're into, we’ve got it</p>
+    <div class="cards-container">
+      <div class="card" style="background-image: url('Outdoors.jpg');">
+        <span>Outdoors</span>
+      </div>
+      <div class="card" style="background-image: url('Food.jpg');">
+        <span>Food</span>
+      </div>
+      <div class="card" style="background-image: url('./\ Culture.jpg');">
+        <span>Culture</span>
+      </div>
+      <div class="card" style="background-image: url('Water.jpg');">
+        <span>Water</span>
+      </div>
+    </div>
+  </section>
+  <!--Card2-->
+  <section class="experiences">
+    <h2>You might like these</h2>
+    <p>More things to do in Colombo</p>
+    <div class="cards2">
+
+      <div class="card2">
+        <img src="Wilpattu.jpg" alt="Wilpattu" />
+        <div class="card2-content">
+          <h3>Wilpattu National Park Jeep Safari from Negombo / Waikkal (All Inclusive)</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.9 <span>🌕🌕🌕🌕🌗</span> (83)</p>
+          <p class="price">from LKR 45,618 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./Tuk.jpg" alt="Tuk Tuk Tour" />
+        <div class="card2-content">
+          <h3>Tuk Tuk Tour Colombo: Sightseeing Entry Fees & Food Included</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.9 <span>🌕🌕🌕🌕🌗</span> (400)</p>
+          <p class="price">from LKR 9,364 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="Sigiriya.jpg" alt="Sigiriya Trip" />
+        <div class="card2-content">
+          <h3>Private Day Trip to Sigiriya, cave and National park Safari Tour</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.7 <span>🌕🌕🌕🌕🌘</span> (72)</p>
+          <p class="price">from LKR 19,658 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./ Sightseeing.jpg" alt="Sightseeing Tour" />
+        <div class="card2-content">
+          <h3>Southern Sri Lanka Sightseeing Day Trip From Colombo & Negombo</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.8 <span>🌕🌕🌕🌕🌘</span> (56)</p>
+          <p class="price">from LKR 25,510 per adult</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Jaffna Card-->
+  <section class="experiences">
+    <h2>Explore experiences near Jaffna</h2>
+    <p>Can't-miss picks near you</p>
+    <div class="cards2">
+
+      <div class="card2">
+        <img src="./jaffna1.jpg" alt="Wilpattu" />
+        <div class="card2-content">
+          <h3>Explore Jaffna during a Private Motorcycle Tour</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">5.0 <span>🌕🌕🌕🌕🌕</span> (23)</p>
+          <p class="price">from LKR 13,806 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./jaffna2.jpg" alt="Tuk Tuk Tour" />
+        <div class="card2-content">
+          <h3>Sri Lanka North East Tour | 10 Nights</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.9 <span>🌕🌕🌕🌕🌕</span> (1)</p>
+          <p class="price">from LKR 274,727 per groupt</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./jaffna3.jpg" alt="Sigiriya Trip" />
+        <div class="card2-content">
+          <h3>Full Day Tour Delft and Nainativu Island Adventure from Jaffna</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.8 <span>🌕🌕🌕🌕🌘</span> (4)</p>
+          <p class="price">from LKR 39,016 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./jaffna4.jpg" alt="Sightseeing Tour" />
+        <div class="card2-content">
+          <h3>Sri Lanka North Tour </h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">5.0 <span>🌕🌕🌕🌕🌕</span> (1)</p>
+          <p class="price">from LKR 390,156 per group</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--Inspiration to get you going-->
+  <section class="inspiration2">
+    <div class="Inspirationh2">
+      <h2>Inspiration to get you going</h2>
+    </div>
+    <div class="cards3">
+      <div class="card3">
+        <img src="Go1.jpg" alt="Stargazing">
+        <button class="like">&#9825;</button>
+        <p>Where to stargaze around the world,<br>from Utah to Dubai</p>
+      </div>
+      <div class="card3">
+        <img src="Go2.jpg" alt="Art Spots">
+        <button class="like">&#9825;</button>
+        <p>Load up on art in Paris, NYC, and other<br>culture hot spots</p>
+      </div>
+      <div class="card3">
+        <img src="Go3.jpg" alt="Food Trips">
+        <button class="like">&#9825;</button>
+        <button class="next">&#10140;</button>
+        <p>13 cities, 13 unbelievable food trips</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Things to do—right now-->
+  <section class="experiences">
+    <h2>Things to do—right now</h2>
+    <p>Seasonal faves you don’t want to miss</p>
+    <div class="cards2">
+
+      <div class="card2">
+        <img src="./Small.jpg" alt="Wilpattu" />
+        <div class="card2-content">
+          <h3>Small-group boat tour of the Amalfi Coast from Sorrento</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.8 <span>🌕🌕🌕🌕🌘</span> (316)</p>
+          <p class="price">from LKR 53,154 per adultt</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./Dolphins.jpg" alt="Tuk Tuk Tour" />
+        <div class="card2-content">
+          <h3>Dolphins Search and Benagil Caves from Albufeira</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.9 <span>🌕🌕🌕🌕🌕</span> (3,239)</p>
+          <p class="price">from LKR 12,081 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./Banff.jpg" alt="Sigiriya Trip" />
+        <div class="card2-content">
+          <h3>Explore Banff National Park with Our Premium Day Tour</h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">4.8 <span>🌕🌕🌕🌕🌘</span> (259)</p>
+          <p class="price">from LKR 34,349 per adult</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="./Boat.jpg" alt="Sightseeing Tour" />
+        <div class="card2-content">
+          <h3>Whitewater Rafting in Jackson Hole: Small Boat Excitement </h3>
+          <button class="like">&#9825;</button>
+          <p class="rating">5.0 <span>🌕🌕🌕🌕🌕</span> (456)</p>
+          <p class="price">from LKR 39,016 per adult</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>About Tripadvisor</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Press</li>
+          <li>Resources and Policies</li>
+          <li>Careers</li>
+          <li>Investor Relations</li>
+          <li>Trust & Safety</li>
+          <li>Contact us</li>
+          <li>Bug Bounty Program</li>
+          <li>Tripadvisor Technology Blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <ul>
+          <li>Write a review</li>
+          <li>Add a Place</li>
+          <li>Join</li>
+          <li>Travelers' Choice</li>
+          <li>Help Center</li>
+          <li>Travel Stories</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Do Business With Us</h4>
+        <ul>
+          <li>Owners</li>
+          <li>Business Advantage</li>
+          <li>Sponsored Placements</li>
+          <li>Advertise with Us</li>
+          <li>Access our Content API</li>
+          <li>Become an Affiliate</li>
+        </ul>
+
+        <h4>Get The App</h4>
+        <ul>
+          <li>iPhone App</li>
+          <li>Android App</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Tripadvisor Sites</h4>
+        <ul>
+          <li><a href="#">TheFork</a></li>
+          <li><a href="#">Viator</a></li>
+          <li><a href="#">Cruise Critic</a></li>
+          <li><a href="#">Seat Guru</a></li>
+          <li><a href="#">Holiday Lettings</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="Logo2.svg" alt="Tripadvisor Logo">
+      </div>
+
+      <div class="footer-info">
+        <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+      </div>
+
+
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy and Cookies Statement</a>
+        <a href="#">Cookie consent</a>
+        <a href="#">Site Map</a>
+        <a href="#">How the site works</a>
+        <a href="#">Contact us</a>
+        <a href="#">Accessibility Statement</a>
+      </div>
+
+
+      <div class="footer-settings">
+        <select>
+          <option>LKR</option>
+        </select>
+        <select>
+          <option>United States</option>
+        </select>
+      </div>
+
+      <div class="footer4">
+        <div class="f5">
+          <p>Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications...
+          </p>
+          <a href="#">Read more</a>
+        </div>
+
+
+  
+
+
+        </div>
+              <div class="footer-social">
+          <!-- Replace these with actual icons or SVGs -->
+          <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+          <i class="fa-solid fa-x" style="color: #020203;"></i>
+          <i class="fa-brands fa-pinterest" style="color: #000000;"></i>
+          <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+          <i class="fa-brands fa-youtube" style="color: #000714;"></i>
+          <i class="fa-brands fa-tiktok" style="color: #000000;"></i>
+
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
